@@ -31,7 +31,7 @@ namespace praktika5v
             InitializeComponent();
             _timer = new DispatcherTimer();
             _timer.Interval = TimeSpan.FromSeconds(1);
-            _timer.Tick += UpdateGraph;
+            _timer.Tick += UpdateGraph; 
             _timer.Start();
         }
         private void UpdateGraph(object sender, EventArgs e)
