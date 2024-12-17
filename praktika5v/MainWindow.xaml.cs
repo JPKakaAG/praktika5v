@@ -29,8 +29,9 @@ namespace praktika5v
         public MainWindow()
         {
             InitializeComponent();
+            tbP.Text = "0";
             _timer = new DispatcherTimer();
-            _timer.Interval = TimeSpan.FromSeconds(10);
+            _timer.Interval = TimeSpan.FromSeconds(1);
             _timer.Tick += UpdateGraph; 
             _timer.Start();
         }
@@ -51,23 +52,24 @@ namespace praktika5v
             if (_Humidity.Count == 0) return;
             double maxHumidity = 80;
             double scale = height / maxHumidity;
-
             for (int i = 1; i < _Humidity.Count; i++)
             {
-                double x1; // Додумать чему равно
-                double y1;
-                double x2;
-                double y2;
+                double x1 = (width / (_Humidity.Count - 1)) * (i - 1);
+                double y1 = height - (_Humidity[i - 1] * scale);
+                double x2 = (width / (_Humidity.Count - 1)) * i;
+                double y2 = height - (_Humidity[i] * scale);
                 Line line = new Line
                 {
-                    //X1 = x1,
-                    //Y1 = y1,
-                    //X2 = x2,
-                    //Y2 = y2,
+                    X1 = x1,
+                    Y1 = y1,
+                    X2 = x2,
+                    Y2 = y2,
                     Stroke = System.Windows.Media.Brushes.Blue,
                     StrokeThickness = 2
                 };
                 Graphik.Children.Add(line);
+
+                AddHumidityLabel(x2, y2, _Humidity[i]);
             }
         }
         private void btnPause_Click(object sender, RoutedEventArgs e)
@@ -84,6 +86,18 @@ namespace praktika5v
                 tbP.Text = "0";
                 btnPause.Content = "Пауза";
             }
+        }
+        private void AddHumidityLabel(double x, double y, double humidity)
+        {
+            TextBlock label = new TextBlock
+            {
+                Text = $"{humidity:F1}%", // Форматируем текст до одного знака после запятой
+                Foreground = Brushes.Black,
+                FontSize = 12,
+                Margin = new Thickness(x + 5, y - 10, 0, 0) // Сдвигаем метку немного вправо и вверх
+            };
+
+            Graphik.Children.Add(label);
         }
     }
 }
