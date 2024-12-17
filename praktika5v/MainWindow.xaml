@@ -11,7 +11,7 @@
             <RowDefinition Height="269*"/>
             <RowDefinition Height="165*"/>
         </Grid.RowDefinitions>
-        <Canvas x:Name="Graphik" Background="Gray" Margin="0,0,0,3"/>
+        <Canvas x:Name="Graphik" Background="White" Margin="0,0,0,3"/>
         <ListView x:Name="lvAveraga" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,2,600,0" Grid.Row="1">
             <ListView.View>
                 <GridView>
