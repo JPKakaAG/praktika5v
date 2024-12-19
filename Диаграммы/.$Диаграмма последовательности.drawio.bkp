@@ -1,0 +1,343 @@
+<mxfile host="Electron" modified="2024-12-17T15:33:25.098Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="lr8gX85pT5hWCymvDYpI" version="24.0.4" type="device">
+  <diagram name="Страница — 1" id="5xlo4eMO4Hjh-8YfEdqg">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-1" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;User&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-2" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;MainWindow&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="234" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-3" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;DispatcherTimer&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="528" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="940" as="sourcePoint" />
+            <mxPoint x="60" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="940" as="sourcePoint" />
+            <mxPoint x="249" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="543" y="940" as="sourcePoint" />
+            <mxPoint x="543" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-47" target="B2GsiZhH9c_wPXj3JPcd-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="940" as="sourcePoint" />
+            <mxPoint x="60" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-18" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="35" y="185" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.033;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-18" target="B2GsiZhH9c_wPXj3JPcd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="250" as="sourcePoint" />
+            <mxPoint x="140" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-23" value="Инициализация MainWindow" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-20">
+          <mxGeometry x="-0.3334" y="-3" relative="1" as="geometry">
+            <mxPoint x="23" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="B2GsiZhH9c_wPXj3JPcd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="940" as="sourcePoint" />
+            <mxPoint x="249" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-21" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-128.5" y="537.5" width="755" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.047;exitY=-0.267;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.293;entryY=1.105;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-21" target="B2GsiZhH9c_wPXj3JPcd-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="219.38" as="sourcePoint" />
+            <mxPoint x="310" y="169.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-28" value="Запуск таймера" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-24">
+          <mxGeometry x="-0.1159" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-67" target="B2GsiZhH9c_wPXj3JPcd-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="543" y="940" as="sourcePoint" />
+            <mxPoint x="543" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-25" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="483" y="219.38" width="120" height="11.25" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-29" value="" style="endArrow=openThin;html=1;rounded=0;dashed=1;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-25" target="B2GsiZhH9c_wPXj3JPcd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-30" value="Ожидание события Tick" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-29">
+          <mxGeometry x="0.1971" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.139;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.113;exitY=0.07;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="253.29999999999995" y="253.31499999999994" as="sourcePoint" />
+            <mxPoint x="253.66999999999996" y="272.94500000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="253" />
+              <mxPoint x="290" y="273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-34" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Генерация PercentageMoisture&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-32">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="59" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.152;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254.25999999999988" y="301.76" as="sourcePoint" />
+            <mxPoint x="254.15999999999997" y="322.14500000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="287" y="302" />
+              <mxPoint x="287" y="322" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-36" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Добавление PercentageMoisture в _Humidity&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-35">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="102" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.152;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254.09999999999985" y="353" as="sourcePoint" />
+            <mxPoint x="253.99999999999994" y="373.38500000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286.84" y="353.24" />
+              <mxPoint x="286.84" y="373.24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-39" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Вычисление averageHumidity&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-38">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="62" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.152;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254.09999999999985" y="401" as="sourcePoint" />
+            <mxPoint x="253.99999999999994" y="421.38500000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286.84" y="401.24" />
+              <mxPoint x="286.84" y="421.24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-42" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Добавление averageHumidity в lvAveraga&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-41">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="92" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.152;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254.09999999999985" y="448" as="sourcePoint" />
+            <mxPoint x="253.99999999999994" y="468.38500000000005" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286.84" y="448.24" />
+              <mxPoint x="286.84" y="468.24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-44" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Добавление PercentageMoisture в lvNow&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-43">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="92" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.152;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254.09999999999985" y="495" as="sourcePoint" />
+            <mxPoint x="253.99999999999994" y="515.385" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286.84" y="495.24" />
+              <mxPoint x="286.84" y="515.24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-46" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Вызов Draw()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-45">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="12" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-64" target="B2GsiZhH9c_wPXj3JPcd-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="940" as="sourcePoint" />
+            <mxPoint x="60" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-47" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="15" y="580" width="90" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.527;entryY=1.243;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-47" target="B2GsiZhH9c_wPXj3JPcd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="580" as="sourcePoint" />
+            <mxPoint x="130" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-50" value="Нажата кнопка пауза" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-49">
+          <mxGeometry x="-0.3075" y="2" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-51" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="483" y="590" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.292;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="B2GsiZhH9c_wPXj3JPcd-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255" y="570" as="sourcePoint" />
+            <mxPoint x="525" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-53" value="Остановить таймер" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-52">
+          <mxGeometry x="-0.0877" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-54" value="" style="endArrow=openThin;html=1;rounded=0;dashed=1;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="538" y="590.71" as="sourcePoint" />
+            <mxPoint x="254" y="590.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-55" value="Таймер остановлен" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-54">
+          <mxGeometry x="0.1971" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.152;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255.09999999999985" y="620" as="sourcePoint" />
+            <mxPoint x="254.99999999999994" y="640.385" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="287.84" y="620.24" />
+              <mxPoint x="287.84" y="640.24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-58" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Изменить tbP.Text на &quot;1&quot;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-57">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="41" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-59" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.152;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254.09999999999985" y="668" as="sourcePoint" />
+            <mxPoint x="253.99999999999994" y="688.385" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286.84" y="668.24" />
+              <mxPoint x="286.84" y="688.24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-60" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Изменить btnPause.Content на &quot;Возобновить&quot;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-59">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="104" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-63" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="B2GsiZhH9c_wPXj3JPcd-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="940" as="sourcePoint" />
+            <mxPoint x="60" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-64" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry y="760" width="120" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.755;entryY=1.089;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B2GsiZhH9c_wPXj3JPcd-64" target="B2GsiZhH9c_wPXj3JPcd-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="780" as="sourcePoint" />
+            <mxPoint x="190" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-66" value="Нажата кнопка возобновить" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-65">
+          <mxGeometry x="-0.3776" y="-1" relative="1" as="geometry">
+            <mxPoint x="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-68" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="B2GsiZhH9c_wPXj3JPcd-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="543" y="940" as="sourcePoint" />
+            <mxPoint x="543" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-67" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="483" y="770" width="120" height="7.5" as="geometry" />
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.767;exitY=-0.186;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.252;entryY=1.191;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="B2GsiZhH9c_wPXj3JPcd-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="253.8599999999999" y="744.0849999999999" as="sourcePoint" />
+            <mxPoint x="533.2824999999999" y="743.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-70" value="Запустить таймер" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-69">
+          <mxGeometry x="-0.1729" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-71" value="" style="endArrow=openThin;html=1;rounded=0;dashed=1;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.08;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="538" y="760" as="sourcePoint" />
+            <mxPoint x="254" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-72" value="Займер запущен" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-71">
+          <mxGeometry x="0.1971" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-73" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.152;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="255.09999999999985" y="790" as="sourcePoint" />
+            <mxPoint x="254.99999999999994" y="810.385" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="287.84" y="790.24" />
+              <mxPoint x="287.84" y="810.24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-74" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Изменить tbP.Text на &quot;0&quot;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-73">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="41" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-75" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.179;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.152;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254.09999999999985" y="837" as="sourcePoint" />
+            <mxPoint x="253.99999999999994" y="857.385" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286.84" y="837.24" />
+              <mxPoint x="286.84" y="857.24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B2GsiZhH9c_wPXj3JPcd-76" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Hiragino Sans&amp;quot;, &amp;quot;Noto Sans CJK JP&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Sans Emoji&amp;quot;; font-size: 13px;&quot;&gt;Изменить btnPause.Content на &quot;Пауза&quot;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B2GsiZhH9c_wPXj3JPcd-75">
+          <mxGeometry x="-0.0072" y="1" relative="1" as="geometry">
+            <mxPoint x="82" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
