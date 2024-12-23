@@ -31,7 +31,7 @@ namespace praktika5v
             InitializeComponent();
             tbP.Text = "0";
             _timer = new DispatcherTimer();
-            _timer.Interval = TimeSpan.FromSeconds(5);
+            _timer.Interval = TimeSpan.FromSeconds(1);
             _timer.Tick += UpdateGraph; 
             _timer.Start();
         }
@@ -96,7 +96,6 @@ namespace praktika5v
                 FontSize = 12,
                 Margin = new Thickness(x + 5, y - 10, 0, 0) // Сдвигаем метку немного вправо и вверх
             };
-
             Graphik.Children.Add(label);
         }
     }
