@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-12-23T11:57:12.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="PWnMMevPuEI08hlb_ekV" version="24.0.4" type="device">
+<mxfile host="Electron" modified="2024-12-18T14:45:45.781Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6aw9H7u8kUwsePUitc9y" version="24.0.4" type="device">
   <diagram name="Страница — 1" id="5xlo4eMO4Hjh-8YfEdqg">
     <mxGraphModel dx="1687" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,10 +313,10 @@
             <mxPoint x="82" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FGXm_gq7TftOOtw5tK8H-1" value="MainWindow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="FGXm_gq7TftOOtw5tK8H-1" value="MainWindow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="219" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FGXm_gq7TftOOtw5tK8H-2" value="DispatcherTimer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="FGXm_gq7TftOOtw5tK8H-2" value="DispatcherTimer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="513" y="120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
